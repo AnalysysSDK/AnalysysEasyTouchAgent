@@ -12,6 +12,9 @@ Pod::Spec.new do |s|
   s.frameworks   = 'UIKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'AdSupport', 'WebKit'
   s.libraries    = 'z', 'sqlite3', 'icucore'
 
+
+  s.vendored_frameworks = "AnalysysSDK/AnalysysEasyTouch.framework"
+
   s.subspec 'Agent' do |sp|
     sp.ios.vendored_frameworks = 'AnalysysSDK/AnalysysAgent.framework'
     sp.resource = 'AnalysysSDK/Resources/AnalysysAgent.bundle'
