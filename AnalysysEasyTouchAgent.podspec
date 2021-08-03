@@ -32,10 +32,10 @@ Pod::Spec.new do |s|
     sp.dependency 'AnalysysAgent/Agent'
   end
   
-  s.subspec 'EasyTouch' do |sp|
-    sp.ios.vendored_frameworks = 'AnalysysSDK/AnalysysEasyTouch.framework'
-    sp.dependency 'AnalysysAgent/Agent'
-  end
+  #s.subspec 'EasyTouch' do |sp|
+    # sp.ios.vendored_frameworks = 'AnalysysSDK/AnalysysEasyTouch.framework'
+    # sp.dependency 'AnalysysAgent/Agent'
+  #end
   #s.default_subspec = 'Agent'
 
 
