@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AnalysysEasyTouchAgent"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "易观 iOS SDK"
   s.homepage     = "https://github.com/AnalysysSDK/AnalysysEasyTouchAgent"
   s.social_media_url = "https://ark.analysys.cn/"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
 
   s.dependency 'AnalysysAgent','4.5.13'
-  s.dependency 'AnalysysEasyTouch','2.2.1.1'
+  s.dependency 'AnalysysEasyTouch','2.2.1'
 end
 
  
